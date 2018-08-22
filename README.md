@@ -60,14 +60,19 @@
 		对于二分类问题，可将样例根据其真是类别分与学习器预测类别的组合划分成真正例，假正例，真反例，假反例四种情况。
 		
 
+![img](file:///C:\Users\macbook\AppData\Roaming\Tencent\Users\944593288\QQ\WinTemp\RichOle\GZYJX{[6U_T[$ZFAP}RZ~%9.png)
+
+		其中TP就是我们要差的类别(比如好瓜)。一般来说，查准率高时，查全率往往偏低，而查全率高时，查准率往往偏低。
 
 
 
+	12.ROC与AUC
 
+		很多学习器为样本产生一个实值或概率预测，然后将这个值与分类阈值进行比较，如果大于阈值为正类，小于阈值为反类。
 
+		ROC：受试者工作特征
 
-
-
+		AUC(Area Under ROC  Curve) ROC曲线下面的面积
 
 
 
